@@ -1,0 +1,71 @@
+/*タブレット向け*/ 
+@media all and (max-width: 1000px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container-hd {
+        width: auto;
+        max-width: 100%;
+        padding: 10px 15px;
+    }
+
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .flex {
+        padding: 60px 0;
+    }
+
+    .flex-img {
+        max-width: 100vw;
+    }
+
+    .main-wrapper {
+        padding-top: 70px;
+    }
+
+    .right {
+        padding-top: 15px;
+    }
+
+    .bi-pics {
+        padding: 60px 0;
+        display: inline-block;
+    }
+}
+
+/*モバイル向け*/
+@media  all and (max-width: 670px) {
+
+    .content {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .container-hd {
+        width: auto;
+        max-width: 100%;
+        padding: 10px 15px;
+    }
+
+    .top-wrapper img {
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
