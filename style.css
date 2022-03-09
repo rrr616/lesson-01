@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(54, 53, 53);
+}
+/*文字や背景は真っ黒や真っ白にしない。目が疲れるため*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.content {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-hd {
+    max-width: 960px;
+    padding: 10px 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.about .bicycle {
+    display: flex;
+    opacity: 0.8;
+}
+
+li {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 0 0 30px;
+    color: rgb(24, 23, 23);
+    font-size: 15px;
+    float: right;
+}
+
+ul a:hover {
+    opacity: 0.5; 
+ }
+ 
+
+.profile {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color:  floralwhite;
+    border:  solid　8px rgba(22, 19, 37,0.8);
+    background-color: rgba(22, 19, 37,0.8);
+    text-align: center;
+}
+/*font-weightは文字の太さ　４段階あり letter-spacingは文字の間*/
+
+.top-wrapper img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    margin-bottom: 80px;
+}
+/*object-fit: cover = 画像の縦横比を維持したままボックスを埋めたい時,
+画像のサイズは縦横のうち小さい方を基準にして自動的に拡大・縮小され、ボックスからはみ出した部分はトリミング
+*/
+
+.main-wrapper {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+h2 {
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: solid 1px rgb(49, 47, 47);
+}
+/*--displayをinlineblockに解除することで文字の下にのみ線が引けるようになる*/
+
+.flex {
+    display: flex; /*横並び*/
+    padding: 60px 0;
+  }
+
+.flex img {
+    display: inline-block; /*画像のサイズ変更が可能になる*/
+    width: 20%; 
+    height: 20%;
+    margin: 10px;
+}
+
+.right {
+    vertical-align: text-top;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+  
+.section {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.bi-pics {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bi-pic {
+    display: inline-block;
+
+}
+
+.pic img {
+    display: inline-block;
+    width: 250px;
+    height: 180px;
+    margin: 50px 10px 10px 10px;
+    max-width: 100%;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 10px;
+}
